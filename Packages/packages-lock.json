@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.frozenphoenix.frozenphoenixhelpers": {
+      "version": "https://github.com/Frozen-Phoenix-Studios/FrozenPhoenixHelpers.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.4"
+      },
+      "hash": "0e7b119931b8eb8cd975e3b424dc45b06c390a07"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,
@@ -120,6 +129,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.device-simulator.devices": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
@@ -143,7 +159,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.24",
+      "version": "3.0.34",
       "depth": 0,
       "source": "registry",
       "dependencies": {
